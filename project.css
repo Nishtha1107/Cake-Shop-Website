@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    /* background: pink; */
+}
+.navbar{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #5e1f12;
+}
+.nav-left,.nav-menu,.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-left,.nav-logo,.logo{
+   font size: 1.5rem;
+   font-weight: 800;
+   /* margin-right: 20px; */
+}
+.nav-left,.nav-menu{
+    list-style: none;
+
+}
+.nav-left .nav-menu li a{
+    padding: 8px 10px;
+    font-size: 1rem;
+
+}
+.nav-left .nav-menu li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: 600;
+}
+.nav-right p{
+    font-size: 1rem;
+
+}
+.nav-right .btn{
+    background-color: #5e1f12;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 30%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.nav-right .btn:hover{
+    background-color: transparent;
+    color: #5e1f12;
+    border: 1px solid #5e1f12;
+}
+.hero-section{
+    min-height: 80vh;
+    background-color: #fff8e1;
+
+}
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 50px;
+}
+.section-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.hero-section .section-content .hero-details h1{
+   font-size: 3rem;
+   max-width: 70%;
+   margin-bottom: 20px;
+}
+.hero-section .section-content .hero-details p{
+   font-size: 1.1rem;
+   max-width: 70%;
+   margin-bottom: 40px;
+}
+.hero-section .section-content .hero-details .Order-Now{
+   padding: 10px 20px;
+   border: 1px solid #5e1f12;
+   background: transparent;
+   color: #5e1f12;
+   cursor: pointer;
+   transition: 0.3s ease;
+
+}
+.hero-section .section-content .hero-details .Order-Now:hover{
+   
+   border: 1px solid transparent;
+   background: #5e1f12;
+   color:#fff;
+}
+.about us{
+    width: 100%;
+    background-color: #fff;
+    padding: 120px,0px;
+
+}
+.about-us .section-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.about-us .section-content .about-img img{
+   width: 450px;
+   height: 450px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.about-us .about-detail{
+    max-width: 50%;
+}
+.section-title{
+    color: #5e1f12;
+    text-align: center;
+    padding: 60px 0px 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-us .section-title::after{
+    content: '';
+    display: block;
+    background-color: #5e1f12;
+    height: 5px;
+    width: 100px;
+    border-radius: 30px;
+    margin: 10px auto 0;
+}
+.about-detail .section-title{
+    padding: 25px;
+}
+.about-detail p{
+    font-family: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+    margin: 50px 0px 30px;
+}
+.menu-section{
+    background-color: #5e1f12;
+    color: #fff;
+    padding: 50px 0px 100px;
+}
+.menu-section .menu-title{
+    color:white;
+    text-align: center;
+    padding: 60px 0px 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.menu-section .menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.menu-section .menu-list .menu-items{
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    
+}
+.menu-section .menu-list .menu-item img{
+    width: 100%;
+    height:70%;
+    object-fit: cover;
+}
+.theme-section{
+    background-color: #fff;
+    
+}
+.theme-title{
+    color: #5e1f12;
+    text-align: center;
+    padding: 15px;
+    font-weight: 1000;
+    font-size:x-large;
+}
+.theme-section .menu-list{
+    gap: 2px;
+}
+.theme-section .menu-list img{
+    cursor: zoom-in;
+    transition: 1s linear;
+    border-radius: 8px;
+}
+.theme-section .menu-list img:hover{
+    cursor: zoom-in;
+    transform: scale(1.1);
+}
+.contact-us{
+    background-color: antiquewhite;
+    padding: 20px;
+    
+    
+    
+}
+.contact-title{
+    
+    color: #5e1f12;
+    text-align: center;
+    padding: 15px;
+    font-weight: 1000;
+    font-size:x-large;
+
+    
+}
+.contact-us .section-content{
+    display: flex;
+    /* max-width: 1300px; */
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+ 
