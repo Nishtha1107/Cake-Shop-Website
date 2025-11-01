@@ -1,0 +1,1 @@
+Sweet Delights is a cake shop website UI designed using HTML and CSS. The project showcases a visually appealing and user-friendly interface for an online bakery or cake shop. The design focuses on presenting products such as cakes, pastries, and desserts attractively, while ensuring smooth navigation and an elegant layout.
